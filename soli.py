@@ -10,7 +10,7 @@ while True :
 
   while player not in choices or player == computer  :
     if player == computer:
-     print("sorry your choise = computer choise ")
+     print("sorry your choice = computer choice ")
      player = int(input("chose number again : "))
      computer = int(random.choice(choices))
     else :
